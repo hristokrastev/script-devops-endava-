@@ -17,7 +17,7 @@ date > date-time.txt &&
 git add date-time.txt;
 git commit -m "adding the date and time" date-time.txt &&
 git push origin master;
-git branch dev;
+git checkout -b dev;
 date >> date-time.txt &&
 git add . &&
 git commit -m "appending the second date and time to the original file" date-time.txt;
