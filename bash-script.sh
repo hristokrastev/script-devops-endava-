@@ -21,4 +21,5 @@ git branch dev;
 date >> date-time.txt &&
 git add . &&
 git commit -m "appending the second date and time to the original file" date-time.txt;
+git push -u origin;
 git push origin master --force;
